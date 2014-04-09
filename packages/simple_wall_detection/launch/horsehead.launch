@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find openni_launch)/launch/openni.launch">
+		<arg name="depth_registration" default="true" />
+	</include>
+	<node pkg="simple_wall_detection" type="simple_wall_detection" name="simple_wall_detection" output="screen"/>
+</launch>

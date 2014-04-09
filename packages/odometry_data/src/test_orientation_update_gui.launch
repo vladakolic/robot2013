@@ -1,0 +1,6 @@
+<launch>
+  <node name="keyboard_control" pkg="keyboard_control" type="keyboard_control.py"/>
+  <node name="orientation_gain_control" pkg="motor_control" type="PIDGainControlGUI.py" respawn="true" args="/motor_control/OrientationGainControl" output="screen"/>
+  <!--node name="plot_speed_left" pkg="rqt_plot" type="rqt_plot" args="/motion/Odometry/theta"/-->
+  <node name="plot_speed_left" pkg="rxtools" type="rxplot" args="/motion/Odometry/theta"/>
+</launch>

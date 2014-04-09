@@ -1,0 +1,8 @@
+<launch>
+  <node name="rosserial_python" pkg="rosserial_python" type="serial_node.py" respawn="true" args="/dev/ttyACM0" output="screen"/>
+  <node name="encoder_filter" pkg="motor_control" type="encoder_filter"/>
+  <node name="motor_control" pkg="motor_control" type="motor_control"/>
+  <node name="odometry_data" pkg="odometry_data" type="odometry_data"/>
+  <node name="keyboard_control" pkg="keyboard_control" type="keyboard_control.py"/>
+  <node name="ir_obstacle_detection" pkg="ir_obstacle_detection" type="ir_obstacle_detection"/>
+</launch>

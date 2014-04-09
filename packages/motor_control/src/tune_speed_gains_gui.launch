@@ -1,0 +1,7 @@
+<launch>
+  <node name="keyboard_control" pkg="keyboard_control" type="keyboard_control.py"/>
+  <node name="speed_left_gain_control" pkg="robot_utilities" type="PIDGainControlGUI.py" respawn="true" args="/motor_control/SpeedLeftGainControl" output="screen"/>
+  <node name="speed_right_gain_control" pkg="robot_utilities" type="PIDGainControlGUI.py" respawn="true" args="/motor_control/SpeedRightGainControl" output="screen"/>
+  <node name="plot_speed_left" pkg="rqt_plot" type="rqt_plot" args="/motion/SpeedReference/W1 /motion/Speed/W1"/>
+  <node name="plot_speed_right" pkg="rqt_plot" type="rqt_plot" args="/motion/SpeedReference/W2 /motion/Speed/W2"/>
+</launch>

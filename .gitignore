@@ -1,0 +1,39 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Binaries
+bin/
+
+# Build files
+build/
+
+# Auto-generated message files
+msg_gen/
+srv_gen/
+generated/
+*/*/src/motor_control/
+*/*/src/keyboard_control/
+*/*/src/hand_detection/
+
+# Python files
+__init__.py
+__init__.pyc
+*.pyc
+_*.py
+
+# Vim swap files
+*.swp
+
+# clang complete files
+.clang_complete

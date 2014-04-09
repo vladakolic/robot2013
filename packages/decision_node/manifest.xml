@@ -1,0 +1,20 @@
+<package>
+  <description brief="decision_node">
+
+     decision_node
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/decision_node</url>
+  <depend package="differential_drive"/>
+  <depend package="motor_control"/>
+  <depend package="odometry_data"/>
+  <depend package="ir_obstacle_detection"/>
+  <depend package="robot_utilities"/>
+  <depend package="global_position_estimation"/>
+
+</package>
+
+

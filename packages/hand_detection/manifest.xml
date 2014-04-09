@@ -1,0 +1,20 @@
+<package>
+  <description brief="hand_detection">
+
+     hand_detection
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hand_detection</url>
+  <depend package="std_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="openni"/>
+  <depend package="openni_camera"/>
+  <depend package="openni_launch"/>
+  <depend package="openni_tracker"/>
+
+</package>
+
+

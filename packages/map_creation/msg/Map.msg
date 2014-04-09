@@ -1,0 +1,11 @@
+int16 nWidth
+int16 nHeight
+float32 fWidth
+float32 fHeight
+float32 fCellSize
+int8[] gridMap
+float32 fRobotPositionX
+int16 nRobotPositionX
+float32 fRobotPositionY
+int16 nRobotPositionY
+float32 fRobotOrientation

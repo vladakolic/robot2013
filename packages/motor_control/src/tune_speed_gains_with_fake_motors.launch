@@ -1,0 +1,13 @@
+<launch>
+  <!--node name="rosserial_python" pkg="rosserial_python" type="serial_node.py" respawn="true" args="/dev/ttyACM0" output="screen"/-->
+  <node name="fake_motors" pkg="fake_motors" type="fake_motors"/>
+  <node name="encoder_filter" pkg="motor_control" type="encoder_filter"/>
+  <node name="motor_control" pkg="motor_control" type="motor_control"/>
+  <node name="keyboard_control" pkg="keyboard_control" type="keyboard_control.py"/>
+  <node name="speed_left_gain_control" pkg="robot_utilities" type="PIDGainControlGUI.py" respawn="true" args="/motor_control/SpeedLeftGainControl" output="screen"/>
+  <node name="speed_right_gain_control" pkg="robot_utilities" type="PIDGainControlGUI.py" respawn="true" args="/motor_control/SpeedRightGainControl" output="screen"/>
+  <node name="plot_speed_left" pkg="rqt_plot" type="rqt_plot" args="/motion/SpeedReference/W1 /motion/Speed/W1"/>
+  <!--node name="plot_speed_left" pkg="rxtools" type="rxplot" args="/motion/SpeedReference/W1 /motion/Speed/W1"/-->
+  <node name="plot_speed_right" pkg="rqt_plot" type="rqt_plot" args="/motion/SpeedReference/W2 /motion/Speed/W2"/>
+  <!--node name="plot_speed_right" pkg="rxtools" type="rxplot" args="/motion/SpeedReference/W2 /motion/Speed/W2"/-->
+</launch>

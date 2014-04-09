@@ -1,0 +1,5 @@
+int8 eNavigationMode
+float32 fTargetPositionX
+float32 fTargetPositionY
+float32 fTargetDirection
+float32 fTargetDistance

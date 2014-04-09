@@ -1,0 +1,18 @@
+<package>
+  <description brief="hand_following">
+
+     hand_following
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hand_following</url>
+  <depend package="std_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="hand_detection"/>
+  <depend package="motor_control"/>
+
+</package>
+
+

@@ -1,0 +1,23 @@
+<package>
+  <description brief="motor_control">
+
+     motor_control
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/motor_control</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="keyboard_control"/>
+  <depend package="robot_utilities"/>
+  <depend package="odometry_data"/>
+
+  <!-- maybe remove this include and create own message types later -->
+  <depend package="differential_drive"/>
+
+</package>
+
+

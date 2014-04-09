@@ -1,0 +1,16 @@
+<package>
+  <description brief="odometry_data">
+
+     odometry_data
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/odometry_data</url>
+  <depend package="roscpp"/>
+  <depend package="differential_drive"/>
+  <depend package="robot_utilities"/>
+</package>
+
+

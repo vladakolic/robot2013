@@ -1,0 +1,18 @@
+<package>
+  <description brief="ir_obstacle_detection">
+
+     ir_obstacle_detection
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ir_obstacle_detection</url>
+  <depend package="std_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="differential_drive"/>
+  <depend package="robot_utilities"/>
+
+</package>
+
+

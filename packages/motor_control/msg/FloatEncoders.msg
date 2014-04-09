@@ -1,0 +1,2 @@
+float32 fDeltaEncoder1
+float32 fDeltaEncoder2

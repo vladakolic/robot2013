@@ -1,0 +1,6 @@
+<launch>
+  <node name="rosserial_python" pkg="rosserial_python" type="serial_node.py" respawn="true" args="/dev/ttyACM0" output="screen"/>
+  <node name="motor_control" pkg="motor_control" type="motor_control"/>
+  <node name="hand_detection" pkg="hand_detection" type="hand_detection"/>
+  <node name="hand_following" pkg="hand_following" type="hand_following"/>
+</launch>

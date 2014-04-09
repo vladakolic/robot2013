@@ -1,0 +1,5 @@
+<launch>
+  <node name="keyboard_control" pkg="keyboard_control" type="keyboard_control.py"/>
+  <node name="map_visualization" pkg="map_creation" type="map_visualization"/>
+  <node name="plot" pkg="rqt_plot" type="rqt_plot" args="/motion/Odometry/theta /motion/Odometry/x /motion/Odometry/y"/>
+</launch>

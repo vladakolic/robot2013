@@ -1,0 +1,18 @@
+<package>
+  <description brief="rospy_easy_gui">
+
+     rospy_easy_gui
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rospy_easy_gui</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="motor_control"/>
+  <depend package="differential_drive"/>
+
+</package>
+
+

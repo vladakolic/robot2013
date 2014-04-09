@@ -1,0 +1,6 @@
+<launch>
+  <node name="rosserial_python" pkg="rosserial_python" type="serial_node.py" respawn="true" args="/dev/ttyACM0" output="screen"/>
+  <node name="ir_obstacle_detection" pkg="ir_obstacle_detection" type="ir_obstacle_detection"/>
+  <node name="wall_following" pkg="wall_following" type="wall_following"/>
+  <node name="keyboard_control" pkg="keyboard_control" type="keyboard_control.py"/>
+</launch>

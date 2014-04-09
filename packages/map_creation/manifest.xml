@@ -1,0 +1,22 @@
+<package>
+  <description brief="map_creation">
+
+     map_creation
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/map_creation</url>
+  <depend package="std_msgs"/>
+  <depend package="global_position_estimation"/>
+  <depend package="ir_obstacle_detection"/>
+  <depend package="odometry_data"/>
+  <depend package="roscpp"/>
+  <depend package="roscpp"/>
+  <depend package="robot_utilities"/>
+  <depend package="decision_node"/>
+
+</package>
+
+

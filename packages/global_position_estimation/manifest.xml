@@ -1,0 +1,16 @@
+<package>
+  <description brief="global_position_estimation">
+
+     global_position_estimation
+
+  </description>
+  <author>robo</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/global_position_estimation</url>
+  <depend package="odometry_data"/>
+  <depend package="ir_obstacle_detection"/>
+
+</package>
+
+
